@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(to right, #e0f2fe, #f0f9ff);
+  padding: 30px 10px;
+}
+
+.section {
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.section h1, .section h2 {
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#result, #definitionResult {
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 10px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  color: #1e293b;
+}
+
+#motiveLine, #dictionaryAdvice {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 15px;
+  color: #475569;
+  background: #f8fafc;
+  padding: 10px;
+  border-left: 4px solid #3b82f6;
+  border-radius: 8px;
+}
+
+.footer-marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  bottom: 0;
+  background: #e0f2fe;
+  padding: 10px 0;
+  border-top: 1px solid #cbd5e1;
+}
+
+.footer-marquee p {
+  display: inline-block;
+  animation: scrollLeft 12s linear infinite;
+  font-size: 16px;
+  color: #0f172a;
+  padding-left: 100%;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
