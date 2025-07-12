@@ -10,6 +10,24 @@ body {
   padding: 30px 10px;
 }
 
+.main-header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 26px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.main-header h1 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .section {
   background: #ffffff;
   padding: 30px;
